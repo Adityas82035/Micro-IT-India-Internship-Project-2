@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    background: radial-gradient(circle, #9be15d, #00e3ae);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    padding: 30px;
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+  }
+  
+  .card h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #00c9a7;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  input[type="number"]:focus {
+    border-color: #007f6e;
+    outline: none;
+    box-shadow: 0 0 5px #00c9a7;
+  }
+  
+  .currency-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .currency-row label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #00c9a7;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  select:hover {
+    border-color: #007f6e;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #00c9a7;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #007f6e;
+    transform: translateY(-2px);
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+  }
+  
