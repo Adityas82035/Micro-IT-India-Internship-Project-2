@@ -1,2 +1,8 @@
-# Micro-IT-India-Internship-Project-2
-This repository contains the projects I developed during my internship. Each project showcases the skills, tools, and technologies I applied and learned while working in a real-world environment. From problem-solving to practical implementation, this repo reflects my hands-on experience and growth during the internship period.
+Currency Converter is a responsive and user-friendly web application that allows users to convert any amount between multiple international currencies using real-time exchange rates.
+Built using HTML, CSS, and JavaScript, the app integrates with the Open Exchange Rate API to fetch up-to-date conversion data.
+✨ Features:
+- Live exchange rate conversion
+- Supports over 160 global currencies
+- Smooth transitions and modern UI
+- Fully responsive and accessible design
+This project helped me strengthen my skills in API integration, DOM manipulation, and front-end development.
